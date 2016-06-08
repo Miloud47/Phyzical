@@ -1,16 +1,16 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: black;
-$navbar-hover-color: $yellow;
-$navbar-font-family: $header-font;
-$navbar-bg: white;
+$navbar-color: white;
+$navbar-hover-color: $emerald;
+$navbar-font-family: $base-font;
+$navbar-bg: $dark-blue;
 
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
 $navbar-height: 50px;
-$navbar-vertical-padding: 5px;
+$navbar-vertical-padding: 8px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
 $navbar-border-bottom-color: grey;
@@ -35,13 +35,15 @@ $navbar-profile-border-width: 2px;
  * SCSS code
  * ------------------------------------- */
 .navbar-wagon {
-  background: $navbar-bg;
+  background-color: transparent;
+//  background-image: url('../images/pattern-blue.png');
+  background-size: 50%;
   font-family: $navbar-font-family;
   border: none;
   font-weight: 400;
   padding-left: $navbar-horizontal-padding;
   padding-right: $navbar-horizontal-padding;
-  border-bottom: $navbar-border-bottom-width solid $navbar-border-bottom-color;
+//  border-bottom: 1px solid $emerald;
   min-height: 0;
   transition: background 0.4s ease;
 
@@ -50,6 +52,7 @@ $navbar-profile-border-width: 2px;
   .navbar-nav > li > a:focus,
   .navbar-nav > .open > a:focus {
     outline: none;
+    font-size: 16px;
     color: $navbar-color;
     line-height: $navbar-height;
     padding-top: $navbar-vertical-padding;
@@ -75,6 +78,7 @@ $navbar-profile-border-width: 2px;
     padding-bottom: $navbar-vertical-padding;
   }
 
+
   .navbar-nav > li > a.btn {
     line-height: $navbar-btn-height;
     padding: 0 $navbar-btn-horizontal-padding;
@@ -83,14 +87,14 @@ $navbar-profile-border-width: 2px;
     margin-top: ($navbar-height + 2 * $navbar-vertical-padding - $navbar-btn-height) / 2;
     font-weight: bold;
     background-color: $navbar-btn-bg;
-    font-size: 12px;
+    font-size: 14px;
     &:hover{
       background-color: darken($navbar-btn-bg, 30%);
     }
   }
 
   .navbar-brand img, .navbar-brand svg {
-    height: $navbar-height;
+    height: 40px;
     padding: 0px;
   }
 
@@ -103,11 +107,12 @@ $navbar-profile-border-width: 2px;
   }
 
   .navbar-toggle {
-    border-color: #dddddd;
+    border-color: $emerald;
     width: 45px;
+    color: $emerald;
     background: transparent;
   }
-
+ 
   .navbar-nav > li > .dropdown-menu{
     border-radius: 0;
     margin-top: 10px;
@@ -137,14 +142,50 @@ $navbar-profile-border-width: 2px;
 @media screen and (max-width: 768px) {
   .navbar-wagon {
     .navbar-brand img, .navbar-brand svg {
-      height: 50px;
+      height: 40px;
     }
     .navbar-brand, .navbar-brand:hover
      {
       display: block;
       color: $navbar-color;
-      padding-top: 0;
+      padding-top: 5px;
       padding-bottom: 0;
     }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: #15DEB0;
+     background-color: $dark-blue;
+}
   }
 }
+
+// Perso
+
+
+// *** Navigation ***
+
+// Ajout centrage lien mobile
+
+  .navbar-wagon .navbar-nav > li > a, .navbar-wagon .navbar-nav > .open > a, .navbar-wagon .navbar-nav > li > a:focus, .navbar-wagon .navbar-nav > .open > a:focus {
+    text-align: center;
+  }
+
+
+//modif hamburger navbar mobile
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $emerald;
+  }
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: $dark-blue;
+   }
+
+// Modif couleur ligne avant les liens du menu
+
+  /* line 453, /Users/miloudbouzalfan/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: $emerald; }
+

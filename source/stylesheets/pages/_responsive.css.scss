@@ -1,0 +1,76 @@
+// --- Responsive --- 
+
+  // Navbar
+
+@media screen and (max-width: 768px){
+ 
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form { // Couleur & border fond nav
+    border-color: #15DEB0;
+    background-color: #082947;
+  }
+    .navbar-wagon{ // Hauteur nav
+    height: 57px;
+  }
+  .navbar-wagon .navbar-toggle { // Hauteur & Largeur bouton hamburger
+    width: 45px;
+    height: 40px;
+  }
+}
+
+  // Homepage
+
+
+@media screen and (max-width: 768px) {
+
+  // HOME //
+
+  	.home{ // agrandit le fond de la homepage (icone trop grand)
+  		background-size: 200%;
+      height: 1350px;
+  	}
+
+    h2{ // Réduit la taille de la police Baseline
+      font-size: 18px;
+    }
+
+    #title{ // Réduit la taille du titre "Phyzical aid"
+      font-size: 50px;
+    }
+
+    .bloc_domaine{
+      margin: 0 auto;
+      width: 90%;
+      margin-bottom: 30px;
+    }
+    .taille_down{
+      width: 35px;
+    }
+
+// ABOUT //
+
+  .experience{
+    height: 730px;
+    margin-bottom: 20px;
+  }
+  .bio{
+    height: 560px;
+  }
+  .formations{
+    height: 780px;
+    margin-bottom: 20px;
+  }
+
+  #tarif{
+    margin-top: 1800px;
+  }
+  footer{
+    text-align: center;
+    height: 120px;
+  }
+  .col-xs-12{
+    margin: 0 auto; 
+  }
+
+}
+
+

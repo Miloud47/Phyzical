@@ -1,0 +1,74 @@
+/* -------------------------------------
+ * Utilities classes
+ * These are examples of utilities classes
+ * Feel free to change them and create your own
+ * ------------------------------------- */
+body{
+	font-family: $base-font;
+	font-size: $base-size;
+	line-height: $base-height;
+	color: $base;
+}
+
+.mini_padded{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.padded {
+  padding-top: 4em;
+  padding-bottom: 4em;
+
+}
+
+h2 {
+	margin-top: 7px;
+	font-family: $base-font;
+	font-size: 22px;
+	color: white;
+	line-height: 30px;
+}
+
+.container-fluid{
+	width: 80%;
+}
+
+container{
+	width: 100%;
+	} 
+
+p{
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	}
+
+
+hr {
+    width: 100%;
+    border-color: $bg-grey;
+}
+
+label {
+
+	font-size: 16px;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+textarea.form-control {
+
+	height: 220px;
+	padding-top: 20px;
+}
+
+// Footer
+
+footer{
+	padding-top: 15px;
+	background-color: $dark-blue;
+	height: 60px;
+}

@@ -1,0 +1,17 @@
+.btn{
+    float: right;
+    background-color: #082947;
+    color: white;
+    padding: 22px;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+	color: white;
+	background-color: #0b345a;
+    text-decoration: none;
+}

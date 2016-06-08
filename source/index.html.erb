@@ -1,10 +1,296 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Phyzical aid
 ---
 
-<div class="welcome text-center padded">
-  <h1>You're <a href="https://www.lewagon.com">Le Wagon</a>'s boilerplate!</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div class="home text-center padded .tk-industry" id="home_link"> <!-- Début Home -->
+ 	
+ 	
+ 	<div id="title" class=".tk-brandon-grotesque">PhyZical Aid </div>
+ 	
+ 	<h2>Cours particulier - Soutien scolaire - Préparation aux examens</h2>
+
+ 	<div class="container-fluid"> <!-- Début Container -->
+ 		
+ 		<div class="row padded"> <!-- Début row -->
+ 			<div class="col-md-4 col-sm-12"> <!-- Début col -->
+ 				<div class="bloc_domaine">
+ 					<%= image_tag "atom.svg", class: "img_domaine" %>
+ 					<h3 class="title_domaine text-center">Physique</h3>
+ 				</div> <!-- Fin col -->
+ 			</div>
+ 			<div class="col-md-4 col-sm-12"> <!-- Début col -->
+ 				<div class="bloc_domaine">
+ 					<%= image_tag "calculatrice.svg", class: "img_domaine" %>
+ 					<h3 class="title_domaine text-center">Mathématique</h3>
+ 				</div> <!-- Fin Hol -->
+ 			</div>
+ 			<div class="col-md-4 col-sm-12"> <!-- Début col -->
+ 				<div class="bloc_domaine">
+ 					<%= image_tag "labo.svg", class: "img_domaine" %>
+ 					<h3 class="title_domaine text-center">Chimie</h3>
+ 				</div> <!-- Fin col -->
+ 			</div>
+ 		</div> <!-- Fin row -->
+ 	</div> <!-- Fin container -->
+ 	
+
+ 	<% link_to "#about" do %>  <!-- Bouton scroll about -->
+ 		<%= image_tag "down.svg", class: "taille_down floating .scroll(function" %>
+ 	<% end %><!-- Fin Bouton scroll about -->
+
+  
+</div><!-- Fin Home -->
+
+<div id="about"><!-- Début About -->
+	<div class="titre_page">About</div>
+	<div class="container"> <!-- Début container -->
+		<div class="row"> <!-- Début row -->
+			<div class="col-md-8 col-sm-12">
+				<div class="experience bloc text-center">
+					<div class="head">
+						<%= image_tag 'cartable.svg', class: "icon" %>
+						<div class="titre">Experience</div>
+						<div class="clear"></div>
+					</div>
+					<div class="experience_text">
+						<p class="annee">2016</p>
+						<p class="poste border">Professeur suppléent Lycée Saint Georges</p>
+							
+						<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve sesracines dans une oeuvre de la littérature latine classiquedatant de 45 av. J.-C., le rendant vieux de 2000 ans.
+						</p>
+					</div>
+					<div class="experience_text">
+						<p class="annee">2016</p>
+						<p class="poste border border">Professeur suppléent Lycée Saint Georges</p>
+							
+						<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve sesracines dans une oeuvre de la littérature latine classiquedatant de 45 av. J.-C., le rendant vieux de 2000 ans.
+						</p>
+					</div>
+					<div class="experience_text">
+						<p class="annee">2016</p>
+						<p class="poste border border">Professeur suppléent Lycée Saint Georges</p>
+							
+						<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve sesracines dans une oeuvre de la littérature latine classiquedatant de 45 av. J.-C., le rendant vieux de 2000 ans.
+						</p>
+					</div>		
+				</div>
+				
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="bio bloc text-center">
+						<div class="head">
+							<%= image_tag 'bio.svg', class: "icon" %>
+							<div class="titre">Bio</div>
+							<div class="clear"></div>
+						</div>
+
+						<%= image_tag 'photo.jpg', class: "photo img-circle" %>
+						<div class="title_domaine mini_padded">John DOE</div>
+						<i class="fa fa-quote-left icon_quotes text-left" aria-hidden="true"></i>
+						<p class="text-center">Plusieurs variations de Lorem Ipsum 				peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires .</p>
+
+				</div>
+	
+			</div>
+		</div> <!-- Fin row -->
+		<div class="row"> <!-- Début row -->
+			<div class="col-md-8 col-sm-12">
+				<div class="formations bloc text-center ">
+					<div class="head">
+						<%= image_tag 'diplome.svg', class: "icon" %>
+						<div class="titre">Formations</div>
+						<div class="clear"></div>
+					</div>
+					<div class="experience_text">
+						<p class="annee">2016</p>
+						<p class="poste border border">Master Physique appliqué - Université Toulouse III</p>
+							
+						<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve sesracines dans une oeuvre de la littérature latine classiquedatant de 45 av. J.-C., le rendant vieux de 2000 ans.
+						</p>
+					</div>
+					<div class="experience_text">
+						<p class="annee">2016</p>
+						<p class="poste border border">Master Physique appliqué - Université Toulouse III</p>
+							
+						<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve sesracines dans une oeuvre de la littérature latine classiquedatant de 45 av. J.-C., le rendant vieux de 2000 ans.
+						</p>
+					</div>
+					<div class="experience_text">
+						<p class="annee">2016</p>
+						<p class="poste border border">Master Physique appliqué - Université Toulouse III</p>
+							
+						<p>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve sesracines dans une oeuvre de la littérature latine classiquedatant de 45 av. J.-C., le rendant vieux de 2000 ans.
+						</p>
+					</div>		
+				</div>
+				
+			</div>
+			<div class="col-md-4 col-sm-12"><!-- Début col -->
+				<div class="info bloc text-center"><!-- Début bloc langues -->
+						<div class="head"> <!-- Début head -->
+							<%= image_tag 'informatique.svg', class: "icon" %>
+							<div class="titre">Informatique</div>
+							<div class="clear"></div>
+						</div> <!-- Fin liste -->
+
+						<div class="liste"> <!-- Début liste -->
+							<ul>
+								<li>CAO</li>
+								<li>Logiciel 3D</li>
+								<li>Language C+</li>
+								<li>Suite Office</li>
+							</ul>
+
+						</div> <!-- fin liste -->
+						
+				</div>	<!-- Fin info bloc langues -->	
+
+				<div class="info bloc text-center mini_padded clear"> <!-- Début bloc info activité -->
+						<div class="head"> <!-- Début Head -->
+							<%= image_tag 'basket.svg', class: "icon" %>
+							<div class="titre">Divers</div>
+							<div class="clear"></div>
+						</div> <!-- Fin Head -->
+
+						<div class="liste"> <!-- Début liste -->
+							<ul>
+								<li><span class="text_important">Langue :</span> Anglais</li>
+								<li><span class="text_important">Activité :</span> Rugby</li>
+								<li><span class="text_important">Autres :</span> Educateur jeunes</li>
+							</ul>
+
+						</div> <!-- Fin Liste -->
+						
+				</div><!-- Fin bloc info Activité -->
+			</div> <!-- Fin col -->
+		</div> <!-- Fin row -->
+	</div> <!-- Fin container -->
+</div><!-- Fin about -->
+
+<div class="clear"></div>
+	<a id="tarif_link"></a>
+<div id="tarif"> <!-- Début tarif -->
+		<div id="tarif_horaire"> <!-- Début tarif_horaire -->
+		<div class="titre_page">Tarif horaire</div>
+		<p class="text-center">Lorem ipsum Eu exercitation veniam sit nisi dolore dolore ea irure incididunt est nulla.</p>
+		<div class="box"> <!-- Début box -->
+				<div class="montant_tarif">12€</div>
+				<!--<img src="images/pattern_emerald.jpg" width="400px" height="150px" class="bg_tarif" />-->
+				<div class="bg_tarif"></div>
+				<ul class="services text-center"> <!-- Début listeservices -->
+					<li><i class="fa fa-check checked" aria-hidden="true"></i> Méthodes claires et simples </li>
+					<hr class="line">
+					<li><i class="fa fa-check checked" aria-hidden="true"></i> Beaucoup de pratique </li>
+					<hr class="line">
+					<li><i class="fa fa-check checked" aria-hidden="true"></i> Travail sur les blocages </li>
+					<hr class="line">
+					<li><i class="fa fa-check checked" aria-hidden="true"></i> Travail sur le stress </li>
+				</ul> <!-- Fin liste services -->
+		</div> <!-- Fin box -->
+			
+		</div> <!-- Fin tarif_horaire -->
+</div> <!-- Fin tarif -->
+<div id="contact"> <!-- Début contact -->
+	<div class="titre_page">Contact</div>
+		<div class="mini_padded"></div>
+		<div class="container-fluid"> <!-- Début container-fluid -->
+			<div class="row"> <!-- Début row -->
+				<form method=POST action=form.php > <!-- Début form -->
+					<div class="col-sm-6 col-xs-12"> <!-- Début col -->
+						<label for="nom">Nom :</label>
+	    				<input type="text" class="form-control" id="nom" placeholder="Nom">
+	    			</div> <!-- Fin col -->
+					<div class="col-sm-6 col-xs-12"> <!-- Début col -->
+						<label for="prenom">Prénom :</label>
+	    				<input type="text" class="form-control" id="prenom" placeholder="Prénom">
+	    			</div> <!-- Fin col -->
+			    	<label for="email">Email :</label>
+			    	<input type="email" class="form-control" id="email" placeholder="Email">
+			    	<label for="message">Message :</label>
+			   		<textarea class="form-control" id="message" rows="3" placeholder="Ecrivez votre message"></textarea>
+
+			   		<button type="submit" class="btn">Envoyer</button>
+				</form> <!-- Fin form -->
+			</div> <!-- Fin row -->
+		</div> <!-- Fin container-fluid -->
+		
+</div> <!-- Fin contact -->
+
+
+<!-- Début Gmap -->
+
+<div id="map" style="width: 100%; height: 300px;"></div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script type="text/javascript">
+  var myLatlng = new google.maps.LatLng(44.4119120,0.7168960);
+
+  var myOptions = {
+      zoom: 14,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#15deb0"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#dedede"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#dedede"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f1f1f1"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
+      
+
+  };
+
+  var map = new google.maps.Map(document.getElementById('map'), myOptions);
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+  });
+ // Gmap scroll
+
+
+</script>
+
+<!-- Fin Gmap -->
+
+
+<footer> <!-- Début footer -->
+	<div class="container-fluid"> <!-- Début contaner-fluid -->
+		<div class="row"><!-- Début row -->
+			<div class="col-md-6 col-sm-12"> <!-- Début col -->
+			<p class="reseau_sociaux"> <a href="https://www.facebook.com/kader.aarab" target="https://www.facebook.com/kader.aarab"><i class="fa fa-facebook facebook"></i>Suivez-nous sur Facebook  </a></p>
+			</div> <!-- Fin col -->
+			<div class="col-md-6 col-sm-12"> <!-- Début col -->
+			<p class="copyright">© Copyright 2016 Phyzical aid - Site crée par Miloud Bouzalfan</p>
+			</div> <!-- Fin col -->
+		</div><!-- Fin row -->
+	</div> <!-- Fin contaner-fluid -->
+</footer> <!-- Fin footer -->
+<% link_to "#home_link" do %>  <!-- Bouton scroll about -->
+ 		<%= image_tag "crayon.svg", class: "top .scroll(function" %>
+ 		
+ 	<% end %><!-- Fin Bouton scroll about -->
+
+<!-- Typekit -->
+<script type="text/javascript">
+	
+	WebFontConfig = {
+  typekit: {
+    id: 'agy8ekp'
+  }
+  	WebFontConfig = {
+  typekit: {
+    id: 'vum5kom'
+  }
+</script>
+
+
+<script src="https://use.typekit.net/agy8ekp.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="https://use.typekit.net/vum5kom.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+ <script type="text/javascript">
+ 	
+ 	window.sr = ScrollReveal();
+ 	sr.reveal('.bloc_domaine', { duration: 1000 , delay: 50});
+ 	sr.reveal('.experience, .bio', { duration: 1000 , delay: 200});
+ 	sr.reveal('.formations, .info', { duration: 1000 , delay: 200});
+ 	sr.reveal('.box', { duration: 2000 , delay: 200});
+
+ </script>

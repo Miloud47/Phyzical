@@ -1,0 +1,331 @@
+// *** Homepage ***
+
+#logo{ // Logo du site
+	font-weight: 700;
+	line-height: 1.4;
+	color: $emerald;
+	font-family: $title-font;
+	font-size: 22px;
+}
+
+.home{ // Fond homepage
+	height: 700px;
+	background-image: url('../images/bg.jpg') ;
+	background-position: top;
+	background-size: 80%;
+	background-position: cover;
+	background-color: $dark-blue;
+}
+
+#title{ // Mise en page "Phyzical Aid"
+	text-decoration:none; 
+	margin-top: 45px;
+	font-family: $title-font;
+	font-size: 65px;
+	font-weight: 700;
+	color: $emerald;
+}
+
+#title:hover{ // Mise en page "Phyzical Aid"
+	text-decoration: none;
+
+}
+
+.bloc_domaine{ // Modélisation blocs pour les 3 matières
+
+	margin: 0 auto;
+
+	width: 350px;
+	height: 290px;
+
+	background-color: white;
+	background-image: url('../images/pattern.png');
+	background-size: 190%;
+
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 2px rgba(4, 25, 45, 0.70);
+	-webkit-box-shadow: 2px 2px 2px gba(4, 25, 45, 0.70);
+	-o-box-shadow: 2px 2px 2px gba(4, 25, 45, 0.70);
+	box-shadow: 2px 2px 2px gba(4, 25, 45, 0.70);	
+}
+
+.img_domaine{ // Icon des matières
+	width: 80%;
+	height: 150px; 
+	margin-top: 40px;
+}
+
+.title_domaine{ // Titres des matières
+	padding-top: 10px;
+	font-family: $base-font;
+	font-size: 27px;
+	font-weight: 700;
+	color: $emerald;
+	
+}
+
+.taille_down{ // Icon arrow ancre About 
+	width: 35px;
+	margin-top: -50px;
+}
+
+// About
+
+#about{	// Page about
+	height: 1000px;
+	padding-top: 60px;
+	background-color: $bg-grey;	
+}
+
+.experience{ // Bloc expérience
+	height: 550px;
+	padding: 20px;
+	background-color : white;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-webkit-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-o-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);	
+}
+
+.formations{ // Bloc formations
+	height: 550px;
+	padding: 20px;
+	background-color : white;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-webkit-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-o-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);	
+}
+
+.info{ // Blocs Informatique & divers
+	height: 260px;
+	margin-bottom: 30px;
+	padding: 20px;
+	background-color : white;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-webkit-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-o-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);	
+}
+
+.titre_page{ // Titre de chaque page
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: $base-font;
+	font-size: 40px;
+	text-align: center;
+	color: $dark-blue;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+
+.head{ // En-tête de bloc
+	margin-top: 20px;
+	margin-left: 40px;
+
+}
+
+.titre{ // Titre en-tête de bloc
+	padding-bottom: 36px;
+	text-align: left;
+ 	line-height: 1.6;
+	font-size: 30px;
+	color: $dark-blue;
+}
+
+.icon{ // icon en-tête de bloc
+	width: 40px;
+	margin-right: 20px; 
+	display: inline-block;
+	float: left;
+}
+
+
+
+.clear{
+	clear: both;
+}
+
+.annee { // Année bloc expérience & formations
+	float: left;
+	line-height: 0.743;
+	padding-left: 60px;
+    padding-right: 20px;
+	font-size: 22px;
+	font-family: $base-font;
+	color: $emerald;
+	
+}
+
+.poste{ // Poste bloc experience & formations
+	font-style: italic;
+	text-align: left;
+    line-height: 16px;
+    font-size: 18px;
+}
+
+.border{ // Ligne en dessous du poste
+	border-bottom: 1px solid #d9d9d9;
+}
+
+	// Bio
+
+
+
+.bio{ // Bloc bio
+	height: 550px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color : white;
+	border-radius: 5px;
+	-moz-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-webkit-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-o-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);	
+}
+
+.photo{ // Photo bio
+	width: 160px;
+	height: 160px;
+}
+
+.icon_quotes{ // icone citation
+	color: $emerald;
+	font-size: 30px;
+	margin-top: -10px;
+    
+}
+
+	// Info
+
+.liste>ul>li{ // Liste Logiciels & Activitées
+	padding-bottom: 10px;
+	font-size: 16px;
+	list-style-type: none;
+	text-align: left;
+}
+
+	// Tarif
+
+#tarif{ // Page tarif
+	width: 100%;
+	height: 770px;
+	padding-top: 60px;
+	background-color: $bg-grey;
+}
+
+.box{ // Boite tarif
+	width: 400px;
+	height: 500px;
+	position: relative;
+	margin-top: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: white;
+	
+	-moz-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-webkit-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	-o-box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+	box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.3);
+
+}
+
+.bg_tarif{ // Fond boite pattern_emerald.jpg
+	width: 400px;
+	height: 150px;
+	position: relative;
+	background: url('../images/pattern_emerald.jpg') no-repeat;
+	background-size: 170%;
+
+}
+
+.services{ // Liste des services
+	padding-top: 40px;
+	padding-left: 0;
+	text-align: center;
+}
+
+.services>li{ // .. chaque lien
+	padding: 10px 10px;
+	margin-left: 100px;
+	text-align: left;
+    list-style-type: none;
+}
+
+.checked{ // icon ok
+	padding-right: 10px;
+	color: $emerald;
+}
+
+.montant_tarif{ // montant tarif
+	margin: 0 auto;
+    position: absolute;
+    top: 21px;
+    left: 133.125px;
+    font-weight: 400;
+    color: white;
+    font-size: 90px;
+    z-index: 3;
+
+}
+
+	// Contact
+
+#contact{ // Page contact
+	height: 880px;
+	padding-top: 60px;
+	background-image: url('../images/pattern_emerald.jpg');
+	background-size: 40%;
+}
+
+.form-control{ // Réglage en plus, class bootstrap formulaire
+	height: 50px;
+	border: 1px solid $bg-grey;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+	// Top
+
+.top{
+	display: none;
+	width: 50px;
+	position: fixed;
+	bottom: 110px;
+	right: 40px;
+}
+
+	// Footer
+
+.reseau_sociaux{ // Lien facebook
+	color: white;
+	float: left;
+}
+
+.copyright{ // Copyright
+	margin-right: 30px;
+	color: white;
+	float: right;
+}
+
+.facebook{ // Icon facebook
+	margin-right: 10px;
+	
+}
+
+.reseau_sociaux>a{ // Lien facebook
+	color: white;
+	text-decoration: none;
+}
+.reseau_sociaux>a:hover{ // Lien facebook
+	color: $emerald;
+	text-decoration: none;
+}
+.map{
+	width: 100%;
+}
